@@ -9,14 +9,35 @@
         background-color: aliceblue;
         height: 70px;
     }
+
+    #titulo {
+        color: aliceblue;
+        font-size: 50px;
+        font-weight: 200;
+    }
     
     #solar {
         float: left;
+        color:75, 73, 160, 255
+    }
+    
+    
+
+    nav{
+        float: right;
+        
     }
 
-    nav {
-        float: right;
+    nav>article>button{
+        color: aliceblue;
     }
+    
+    nav>ul>li>a{
+
+        color:white;
+        border-color: rgba(75, 73, 160, 255);
+    }
+    
 
     nav > ul > li
     {display: inline-block;}
@@ -25,19 +46,110 @@
         background-image: url("../img/painelsolar.jpg");
         /* Full height */
         height: 300px;
+        
 
         /* Center and scale the image nicely */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        padding: 20px 0px 20px;
+        text-align: center;
+    }
+
+    #section1>h1{
+        color:white ;
+    }
+    #botaosolicite{
+        color:rgba(37,150,190,);
+        background-color: rgba(30, 152, 225, 225);
+        float: left;
+        padding:20px ;
     }
 
         #comofunciona>article{
             width: 33%;
             display: inline-block;
+            padding: 20px 0px 20px;
+            text-align: center;
         }
-
+            #dados{
+                padding: 20px 0px 20px;
+                text-align: center;
+            }
         #dados>figure{
             width: 33%;
             display: inline-block;
         }
+        
+        #botao {
+            display:inline-block;
+            text-align: center;
+            margin: auto;
+        }
+
+        #comentario {
+            padding: 20px 0px 20px;
+            background-color: #154c79;
+            color: white;
+            text-align: center;
+            height: 100%;
+        }
+        
+    #dados2>article{
+        width: 33%;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    #botaoprojetos {
+        color: blue;
+        background-color: white;
+    }
+    
+
+    #noticias>article{
+        width: 33%;
+        display: inline-block;
+        padding: 20px 0px 20px;
+        
+        
+    }
+    #noticias {
+        text-align: center;
+        padding: 20px 0px 20px
+    }
+    #solarverifica>article {
+        width: 33%;
+        text-align: center;
+        display: inline-block;
+    }
+
+        #solarverifica{
+            background-color: rgba(68, 70, 69, 255);
+            color: rgba(254, 254, 254, 255);
+        }
+
+        #solarverifica>article>ul>li>a{
+            list-style: none;
+            margin: 20px 0px 10px 0px;
+            
+        }
+
+        #solarverifica>article>ul>li>a{
+            color: white;
+        }
+
+        #solarverifica>article>ul{
+            list-style: none;
+        }
+    
+        #palavra226 {
+        color:rgb( 28,151,220,255);
+        font-size: 30px;
+    }
+
+    footer>figure{
+        float: right;
+    }
+    
+    
