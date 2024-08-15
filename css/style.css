@@ -72,6 +72,7 @@
             padding: 20px 0px 20px;
             text-align: center;
         }
+<<<<<<< HEAD
             #dados{
                 padding: 20px 0px 20px;
                 text-align: center;
@@ -153,3 +154,25 @@
     }
     
     
+=======
+
+        #dados>figure>article{
+            width: 33%;
+            display: inline-block;
+        }
+
+        #comentario {
+            background-color: blue;
+            text-align: center;
+        }
+
+        #noticia>figure>article>button{
+            width: 33%;
+            display: inline-block;
+        }
+
+        footer>p>figure{
+            text-align: center;
+            display: inline-block;
+        }
+>>>>>>> 9ceb206df849649581d9ffa569b6ec76b1c9cd44
