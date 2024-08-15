@@ -37,7 +37,22 @@
             display: inline-block;
         }
 
-        #dados>figure{
+        #dados>figure>article{
             width: 33%;
+            display: inline-block;
+        }
+
+        #comentario {
+            background-color: blue;
+            text-align: center;
+        }
+
+        #noticia>figure>article>button{
+            width: 33%;
+            display: inline-block;
+        }
+
+        footer>p>figure{
+            text-align: center;
             display: inline-block;
         }
