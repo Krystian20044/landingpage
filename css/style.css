@@ -7,13 +7,16 @@
     
     header {
         background-color: aliceblue;
-        height: 70px;
+        height: 150px;
     }
 
     #titulo {
         color: aliceblue;
         font-size: 50px;
         font-weight: 200;
+        float:left;
+        display: block;
+        padding: 100px;
     }
     
     #solar {
@@ -25,7 +28,9 @@
 
     nav{
         float: right;
-        
+        font-size: 20px;
+        padding: 25px;
+        margin: 0px 10px 0px 10px;
     }
 
     nav>article>button{
@@ -34,7 +39,7 @@
     
     nav>ul>li>a{
 
-        color:white;
+        color:rgb(80, 45, 236);
         border-color: rgba(75, 73, 160, 255);
     }
     
@@ -44,26 +49,26 @@
     
     #section1 {
         background-image: url("../img/painelsolar.jpg");
-        /* Full height */
+        
         height: 300px;
         
 
-        /* Center and scale the image nicely */
+        
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         padding: 20px 0px 20px;
-        text-align: center;
-    }
+        }   
 
     #section1>h1{
         color:white ;
     }
     #botaosolicite{
-        color:rgba(37,150,190,);
+        color:white;
         background-color: rgba(30, 152, 225, 225);
         float: left;
-        padding:20px ;
+        padding:20px;
+        
     }
 
         #comofunciona>article{
@@ -72,7 +77,6 @@
             padding: 20px 0px 20px;
             text-align: center;
         }
-<<<<<<< HEAD
             #dados{
                 padding: 20px 0px 20px;
                 text-align: center;
@@ -89,11 +93,12 @@
         }
 
         #comentario {
-            padding: 20px 0px 20px;
-            background-color: #154c79;
-            color: white;
-            text-align: center;
+            padding: 30px;
+            background-color: rgb(37,150,190);
+            color: rgba(205,215,218,255);
+            margin: 40px 0px 40px 0px;
             height: 100%;
+            text-align: center;
         }
         
     #dados2>article{
@@ -103,8 +108,10 @@
     }
     
     #botaoprojetos {
-        color: blue;
-        background-color: white;
+        padding: 10px;
+        color: rgba(52, 156, 220, 255);
+        border-color: rgba(52,156,220,255);
+        margin: 20px;
     }
     
 
@@ -146,7 +153,7 @@
     
         #palavra226 {
         color:rgb( 28,151,220,255);
-        font-size: 30px;
+        font-size: 50px;
     }
 
     footer>figure{
@@ -154,25 +161,3 @@
     }
     
     
-=======
-
-        #dados>figure>article{
-            width: 33%;
-            display: inline-block;
-        }
-
-        #comentario {
-            background-color: blue;
-            text-align: center;
-        }
-
-        #noticia>figure>article>button{
-            width: 33%;
-            display: inline-block;
-        }
-
-        footer>p>figure{
-            text-align: center;
-            display: inline-block;
-        }
->>>>>>> 9ceb206df849649581d9ffa569b6ec76b1c9cd44
